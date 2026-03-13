@@ -4,10 +4,10 @@ albumentations @ git+https://github.com/albumentations-team/albumentations@3c510
 aliyun-python-sdk-core==2.14.0
 aliyun-python-sdk-kms==2.16.2
 antlr4-python3-runtime==4.9.3
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+asttokens
 attrs==23.2.0
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1687772187254/work
+backcall
+backports.functools-lru-cache 
 batchgenerators==0.25
 black==24.2.0
 blessed==1.20.0
@@ -19,7 +19,7 @@ click==8.1.7
 cloudpickle==3.0.0
 colorama==0.4.6
 colorlog==6.8.2
-comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1691044910542/work
+comm
 contextlib2==21.6.0
 contourpy==1.2.0
 cosine-annealing-warmup @ git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup@12d03c07553aedd3d9e9155e2b3e31ce8c64081a
@@ -27,13 +27,13 @@ crcmod==1.7
 cryptography==41.0.7
 cycler==0.12.1
 Cython==3.0.2
-debugpy @ file:///home/conda/feedstock_root/build_artifacts/debugpy_1695534290310/work
+debugpy
 decorator==4.4.2
 detectron2 @ git+https://github.com/facebookresearch/detectron2.git@a59f05630a8f205756064244bf5beb8661f96180
 efficientnet-pytorch==0.7.1
 einops==0.7.0
-exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1692026125334/work
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
+exceptiongroup 
+executing
 fairscale==0.4.13
 filelock==3.13.1
 fonttools==4.49.0
@@ -58,17 +58,17 @@ imgaug==0.4.0
 importlib_metadata==7.0.2
 importlib_resources==6.1.3
 iopath==0.1.9
-ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1698244021190/work
-ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1696264049390/work
-jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
+ipykernel
+ipython
+jedi
 Jinja2==3.1.3
 jmespath==0.10.0
 joblib==1.3.2
 jsonlines==4.0.0
 jsonpatch==1.33
 jsonpointer==2.4
-jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1698231991356/work
-jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1698673647019/work
+jupyter_client
+jupyter_core
 kiwisolver==1.4.5
 kornia==0.7.1
 lazy_loader==0.3
@@ -79,7 +79,7 @@ Markdown==3.5.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.8.3
-matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
+matplotlib-inline
 mdurl==0.1.2
 MedPy==0.4.0
 ml-collections==0.1.1
@@ -94,13 +94,13 @@ mpmath==1.3.0
 MultiScaleDeformableAttention==1.0
 munch==4.0.0
 mypy-extensions==1.0.0
-nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1697083700168/work
+nest-asyncio
 networkx==3.2.1
 nibabel==5.2.1
 nltk==3.8.1
 nptyping==2.5.0
 numba==0.59.0
-numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1695290862901/work/dist/numpy-1.26.0-cp310-cp310-linux_x86_64.whl#sha256=44509c98ccedaff13cf312f80a8e392a35d5f649bdf63f1b7e705fdfdc621c6d
+numpy
 nvidia-ml-py==12.535.133
 oauthlib==3.2.2
 omegaconf==2.3.0
@@ -112,38 +112,36 @@ openmim==0.3.9
 openxlab==0.0.34
 ordered-set==4.1.0
 oss2==2.17.0
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
+packagin
 pandas==2.1.2
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+parso
 pathspec==0.12.1
-pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1667297516076/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pexpect 
+pickleshare
 pillow==10.2.0
 pkuseg==0.0.25
 platformdirs==4.2.0
 portalocker==2.8.2
 pretrainedmodels==0.7.4
 proglog==0.1.10
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1688565951714/work
-protobuf==4.25.3
-psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1695367094274/work
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+prompt-toolkit
+psutil
+pure-eval
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycocoevalcap==1.2
 pycocotools==2.0.7
 pycparser==2.21
 pycryptodome==3.20.0
-pydensecrf @ file:///home/conda/feedstock_root/build_artifacts/pydensecrf_1667219279105/work
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1691408637400/work
+pydensecrf
+Pygments
 PYMIC==0.4.0
 pynrrd==1.0.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pytz==2023.3.post1
 PyYAML==6.0.1
-pyzmq @ file:///home/conda/feedstock_root/build_artifacts/pyzmq_1698062401223/work
+pyzmq
 qudida==0.0.4
 regex==2023.12.25
 requests==2.31.0
@@ -159,8 +157,8 @@ segmentation-models-pytorch @ git+https://github.com/qubvel/segmentation_models.
 sentencepiece==0.2.0
 shapely==2.0.3
 SimpleITK==2.3.1
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+six
+stack-data
 submitit==1.5.1
 supervision==0.6.0
 sympy==1.12
@@ -181,10 +179,10 @@ torchaudio==0.13.1+cu116
 torchmetrics==1.3.1
 torchnet==0.0.4
 torchvision==0.14.1+cu116
-tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1695373560918/work
+tornado
 tqdm==4.66.2
 traceback2==1.4.0
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1698671135544/work
+traitlets
 transformers==4.39.1
 triton==2.2.0
 ttach==0.0.3
@@ -198,4 +196,4 @@ websocket-client==1.6.3
 Werkzeug==3.0.1
 yacs==0.1.8
 yapf==0.40.1
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
+zipp
